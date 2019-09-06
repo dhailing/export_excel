@@ -1,0 +1,20 @@
+{
+  "name": "ninenight/export_excel",
+  "description": "整合常用的excel导出功能实现，采用phpexcel以及php_xlswriter",
+  "authors": [
+    {
+      "name": "dhailing",
+      "email": "1066179972@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "ninenight\\Send\\": "src/"
+    }
+  }
+}
