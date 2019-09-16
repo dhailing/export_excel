@@ -8,13 +8,15 @@
     }
   ],
   "require": {
-    "php": ">=7.0"
+    "php": ">=7.0",
+    "phpoffice/phpspreadsheet": "dev-master",
+    "mk-j/php_xlsxwriter": "dev-master"
   },
   "license": "MIT",
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
-      "ninenight\\Send\\": "src/"
+      "ninenight\\export\\": "src/"
     }
   }
 }
